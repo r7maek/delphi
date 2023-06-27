@@ -5,10 +5,11 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.ComCtrls, Vcl.Grids,
-  Vcl.StdCtrls, Vcl.Menus;
+  Vcl.StdCtrls;
 
 type
   TForm1 = class(TForm)
+    StringGrid1: TStringGrid;
     StatusBar1: TStatusBar;
     Edit1: TEdit;
     CheckBox1: TCheckBox;
@@ -24,7 +25,7 @@ type
     Edit10: TEdit;
     Edit11: TEdit;
     DateTimePicker1: TDateTimePicker;
-    TPanel1: TPanel;
+    tpanl1: TPanel;
     Edit12: TEdit;
     CheckBox2: TCheckBox;
     Edit13: TEdit;
@@ -34,6 +35,7 @@ type
     Edit15: TEdit;
     CheckBox4: TCheckBox;
     Edit16: TEdit;
+    Label1: TLabel;
   private
     { Private declarations }
   public

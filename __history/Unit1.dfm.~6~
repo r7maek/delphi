@@ -1,9 +1,8 @@
 object Form1: TForm1
   Left = 0
   Top = 0
-  AutoSize = True
   Caption = 'Form1'
-  ClientHeight = 489
+  ClientHeight = 600
   ClientWidth = 1024
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -18,7 +17,7 @@ object Form1: TForm1
     Left = 0
     Top = 150
     Width = 1024
-    Height = 43
+    Height = 34
     Align = alClient
     BiDiMode = bdLeftToRight
     ParentBiDiMode = False
@@ -227,17 +226,15 @@ object Form1: TForm1
   end
   object StringGrid1: TStringGrid
     Left = 0
-    Top = 193
+    Top = 184
     Width = 1024
-    Height = 277
+    Height = 397
     Align = alBottom
     TabOrder = 1
-    ExplicitTop = 192
-    ExplicitWidth = 1020
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 470
+    Top = 581
     Width = 1024
     Height = 19
     Panels = <>
