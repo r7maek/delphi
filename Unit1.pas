@@ -34,6 +34,12 @@ type
     Edit15: TEdit;
     CheckBox4: TCheckBox;
     Edit16: TEdit;
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    TabSheet2: TTabSheet;
+    TabSheet3: TTabSheet;
+    TabSheet4: TTabSheet;
+    TabSheet5: TTabSheet;
   private
     { Private declarations }
   public

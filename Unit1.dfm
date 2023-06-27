@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 640
+  ClientHeight = 660
   ClientWidth = 1024
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -212,11 +212,39 @@ object Form1: TForm1
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Top = 621
+    Top = 641
     Width = 1024
     Height = 19
     Panels = <>
     ExplicitTop = 580
     ExplicitWidth = 1020
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 184
+    Width = 1024
+    Height = 457
+    ActivePage = TabSheet2
+    Align = alBottom
+    TabOrder = 2
+    object TabSheet1: TTabSheet
+      Caption = 'TabSheet1'
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'TabSheet2'
+      ImageIndex = 1
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'TabSheet3'
+      ImageIndex = 2
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'TabSheet4'
+      ImageIndex = 3
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'TabSheet5'
+      ImageIndex = 4
+    end
   end
 end
